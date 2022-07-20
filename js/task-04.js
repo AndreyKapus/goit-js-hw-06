@@ -6,13 +6,13 @@ let counterValue = 0;
 const increment = () => {
   counterValue += 1;
 
-  document.getElementById("value").textContent = counterValue;
+  spanValue.textContent = counterValue;
 };
 
 const decrement = () => {
   counterValue -= 1;
 
-  document.getElementById("value").textContent = counterValue;
+  spanValue.textContent = counterValue;
 };
 btnIncrement.addEventListener("click", increment);
 btnDecrement.addEventListener("click", decrement);
