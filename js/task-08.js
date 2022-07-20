@@ -12,6 +12,7 @@ function onFormSubmit(event) {
 
   if (mail === "" || password === "") {
     alert("Нужно заполнить все поля!");
+    return;
   }
   const dataArray = {
     mail,
