@@ -20,6 +20,8 @@ function onFormSubmit(event) {
   console.log(dataArray);
 }
 
+// ------------- Решение через Form Data ---------------
+
 // const formRef = document.querySelector(".login-form");
 // console.log(formRef);
 

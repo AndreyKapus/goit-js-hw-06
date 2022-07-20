@@ -1,4 +1,3 @@
-const wrapper = document.querySelector("#counter ");
 const btnIncrement = document.querySelector("[data-action='increment']");
 const btnDecrement = document.querySelector("[data-action='decrement']");
 const spanValue = document.querySelector("#value");
